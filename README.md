@@ -3,4 +3,5 @@
 # github-workflow-experiments
 A repository to try out things on github workflows.
 
-See https://github.com/meeshkan/action.
+- [.github/workflows/blank.yml](.github/workflows/blank.yml)
+- [https://github.com/meeshkan/action](https://github.com/meeshkan/action)
