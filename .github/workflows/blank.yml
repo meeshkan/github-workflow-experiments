@@ -40,7 +40,7 @@ jobs:
 
     - name: Run meeshkan tests
       id: meeshkan
-      uses: meeshkan/action@master
+      uses: meeshkan/action@v0.2
       with:
         endpoint: 'http://localhost:8080/endpoint2'
 
