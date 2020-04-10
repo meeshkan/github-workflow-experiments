@@ -38,6 +38,11 @@ jobs:
       with:
         who-to-greet: 'Mona the Octocat'
 
-    - uses: meeshkan/action@master
+    - name: Run meeshkan tests
+      id: meeshkan
+      uses: meeshkan/action@master
       with:
         who-to-greet: 'Captain America'
+
+    - name: Show the output meeshkan_time
+      run: echo "The meeshkan_time was ${{ steps.meeshkan.outputs.meeshkan_time }}"
