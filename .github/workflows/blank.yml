@@ -37,3 +37,7 @@ jobs:
     - uses: actions/hello-world-docker-action@master
       with:
         who-to-greet: 'Mona the Octocat'
+
+    - uses: meeshkan/action@master
+      with:
+        who-to-greet: 'Captain America'
