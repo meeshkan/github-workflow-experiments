@@ -33,3 +33,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+
+    - uses: actions/hello-world-docker-action@master
+    with:
+      who-to-greet: 'Mona the Octocat'
